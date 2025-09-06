@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+}
+
+body {
+  background-color: #fffaf4;
+  color: #333;
+  padding: 20px;
+}
+
+header {
+  background-color: #f68e2b;
+  color: white;
+  padding: 55px;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  background-image: url('Logo.png');
+  background-blend-mode: multiply;
+}
+
+header h1 {
+  font-size: 48px;
+  font-weight: 800;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  margin-bottom: 10px;
+}
+
+header h2 {
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+  margin-bottom: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #ab5332;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+nav a:hover {
+  background-color: #8f3f26;
+  transform: translateY(-2px);
+}
+
+section {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+form {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+input[type="text"],
+input[type="number"] {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #f68e2b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #ab5332;
+  transform: scale(1.05);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  background-color: white;
+}
+
+th, td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+th {
+  background-color: #ab5332;
+  color: white;
+  text-transform: uppercase;
+}
+
+td {
+  background-color: #fffaf4;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  color: #555;
+  font-size: 14px;
+}
+
+#seccion-buscar h3,
+#seccion-agregar h3,
+#seccion-editar h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #ab5332;
+}
+
+form label {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #ab5332;
+}
+
+/* Estilo para los modales */
+#modal-editar,
+#modal-agregar {
+  display: none;
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+#modal-editar > div,
+#modal-agregar > div {
+  background: #fff;
+  padding: 25px;
+  max-width: 450px;
+  width: 90%;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+#modal-editar h3,
+#modal-agregar h3 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #f68e2b;
+}
+
+#modal-editar button,
+#modal-agregar button {
+  margin-top: 10px;
+}

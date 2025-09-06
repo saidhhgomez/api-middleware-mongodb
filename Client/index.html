@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Biblioteca Davisteka</title>
+  <link rel="stylesheet" href="style.css" />
+
+
+</head>
+<body>
+  <header>
+    <h1>Biblioteca Davisteka</h1>
+    <h2>Inventario</h2>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#"  onclick="abrirModalAgregar()">Agregar Libro</a></li>    
+      </ul>
+  </nav>
+
+  <!-- BUSCAR LIBRO -->
+  <section id="seccion-buscar">
+    <h3>Buscar Libro</h3>
+    <form id="form-busqueda">
+      <label for="busqueda">Título o Autor:</label>
+      <input type="text" id="busqueda" name="busqueda" placeholder="Ej: El Principito" />
+      <button type="submit">Buscar</button>
+    </form>
+  </section>
+
+  <!-- AGREGAR LIBRO -->
+  <section id="seccion-agregar" style="display: none;">
+    <h3>Agregar Libro</h3>
+    <form id="form-agregar">
+      <label for="titulo-agregar">Título:</label>
+      <input type="text" id="titulo-agregar" name="titulo" />
+
+      <label for="autor-agregar">Autor:</label>
+      <input type="text" id="autor-agregar" name="autor" />
+
+      <label for="categoria-agregar">Categoría:</label>
+      <input type="text" id="categoria-agregar" name="categoria" />
+
+      <label for="editorial-agregar">Editorial:</label>
+      <input type="text" id="editorial-agregar" name="editorial" />
+
+      <label for="anio-agregar">Año de Publicación:</label>
+      <input type="number" id="anio-agregar" name="anio" />
+
+      <label for="isbn-agregar">ISBN:</label>
+      <input type="text" id="isbn-agregar" name="isbn" />
+
+      <label for="stock-agregar">Stock:</label>
+      <input type="number" id="stock-agregar" name="stock" />
+
+      <button type="submit">Agregar</button>
+    </form>
+  </section>
+
+  <!-- EDITAR LIBRO -->
+  <section id="seccion-editar" style="display: none;">
+    <h3>Editar Libro</h3>
+
+    <!-- Buscar libro por ID -->
+    <form id="form-buscar-id">
+      <label for="id-editar">ID del libro a editar:</label>
+      <input type="number" id="id-editar" name="id" />
+      <button type="submit">Buscar</button>
+    </form>
+
+    <!-- Formulario para editar libro (se muestra luego de buscar por ID) -->
+    <form id="form-editar" style="display: none;">
+      <label for="titulo-editar">Título:</label>
+      <input type="text" id="titulo-editar" name="titulo" />
+
+      <label for="autor-editar">Autor:</label>
+      <input type="text" id="autor-editar" name="autor" />
+
+      <label for="categoria-editar">Categoría:</label>
+      <input type="text" id="categoria-editar" name="categoria" />
+
+      <label for="editorial-editar">Editorial:</label>
+      <input type="text" id="editorial-editar" name="editorial" />
+
+      <label for="anio-editar">Año de Publicación:</label>
+      <input type="number" id="anio-editar" name="anio" />
+
+      <label for="isbn-editar">ISBN:</label>
+      <input type="text" id="isbn-editar" name="isbn" />
+
+      <label for="stock-editar">Stock:</label>
+      <input type="number" id="stock-editar" name="stock" />
+
+      <button type="submit">Editar</button>
+    </form>
+  </section>
+
+  <!-- RESULTADOS -->
+  <section>
+    <h3>Resultados</h3>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Título</th>
+          <th>Autor</th>
+          <th>Categoría</th>
+          <th>Editorial</th>
+          <th>Año de Publicación</th>
+          <th>ISBN</th>
+          <th>Stock</th>
+          <th>Acciones</th>
+        </tr>
+      </thead>
+      <tbody id="tabla-resultados">
+      </tbody>
+    </table>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Biblioteca Davisteka - Uso interno</p>
+  </footer>
+
+
+<!-- Modal personalizado para editar -->
+<div id="modal-editar" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%;
+  background-color: rgba(0,0,0,0.5); justify-content:center; align-items:center;">
+  <div style="background:#fff; padding:20px; max-width:400px; margin:auto; border-radius:5px;">
+    <h3>Editar Libro</h3>
+    <form id="form-modal-editar">
+
+      <input type="hidden" id="modal-id" />
+
+      <div style="display:flex; align-items:center; margin-bottom:12px;">
+        <label for="modal-titulo" style="width:100px; margin-right:10px;">Título:</label>
+        <input type="text" id="modal-titulo" name="titulo" required style="flex:1;">
+      </div>
+
+      <div style="display:flex; align-items:center; margin-bottom:12px;">
+        <label for="modal-autor" style="width:100px; margin-right:10px;">Autor:</label>
+        <input type="text" id="modal-autor" name="autor" required style="flex:1;">
+      </div>
+
+      <div style="display:flex; align-items:center; margin-bottom:12px;">
+        <label for="modal-categoria" style="width:100px; margin-right:10px;">Categoría:</label>
+        <input type="text" id="modal-categoria" name="categoria" style="flex:1;">
+      </div>
+
+      <div style="display:flex; align-items:center; margin-bottom:12px;">
+        <label for="modal-editorial" style="width:100px; margin-right:10px;">Editorial:</label>
+        <input type="text" id="modal-editorial" name="editorial" style="flex:1;">
+      </div>
+
+      <div style="display:flex; align-items:center; margin-bottom:12px;">
+        <label for="modal-anio" style="width:100px; margin-right:10px;">Año:</label>
+        <input type="number" id="modal-anio" name="anio" required style="flex:1;">
+      </div>
+
+      <div style="display:flex; align-items:center; margin-bottom:12px;">
+        <label for="modal-isbn" style="width:100px; margin-right:10px;">ISBN:</label>
+        <input type="text" id="modal-isbn" name="isbn" style="flex:1;">
+      </div>
+
+      <div style="display:flex; align-items:center; margin-bottom:20px;">
+        <label for="modal-stock" style="width:100px; margin-right:10px;">Stock:</label>
+        <input type="number" id="modal-stock" name="stock" required style="flex:1;">
+      </div>
+
+      <button type="submit">Guardar</button>
+      <button type="button" onclick="cerrarModalEditar()" style="margin-left:10px;">Cancelar</button>
+    </form>
+  </div>
+</div>
+
+
+<!-- Modal para agregar libro -->
+<div id="modal-agregar" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%;
+  background-color: rgba(0,0,0,0.5); justify-content:center; align-items:center;">
+  <div style="background:#fff; padding:20px; max-width:400px; margin:auto; border-radius:5px;">
+    <h3>Agregar Libro</h3>
+    <form id="form-modal-agregar">
+
+      <div style="display:flex; align-items:center; margin-bottom:12px;">
+        <label for="nuevo-titulo" style="width:100px; margin-right:10px;">Título:</label>
+        <input type="text" id="nuevo-titulo" name="titulo" required style="flex:1;">
+      </div>
+
+      <div style="display:flex; align-items:center; margin-bottom:12px;">
+        <label for="nuevo-autor" style="width:100px; margin-right:10px;">Autor:</label>
+        <input type="text" id="nuevo-autor" name="autor" required style="flex:1;">
+      </div>
+
+      <div style="display:flex; align-items:center; margin-bottom:12px;">
+        <label for="nuevo-categoria" style="width:100px; margin-right:10px;">Categoría:</label>
+        <input type="text" id="nuevo-categoria" name="categoria" style="flex:1;">
+      </div>
+
+      <div style="display:flex; align-items:center; margin-bottom:12px;">
+        <label for="nuevo-editorial" style="width:100px; margin-right:10px;">Editorial:</label>
+        <input type="text" id="nuevo-editorial" name="editorial" style="flex:1;">
+      </div>
+
+      <div style="display:flex; align-items:center; margin-bottom:12px;">
+        <label for="nuevo-anio" style="width:100px; margin-right:10px;">Año:</label>
+        <input type="number" id="nuevo-anio" name="anio" required style="flex:1;">
+      </div>
+
+      <div style="display:flex; align-items:center; margin-bottom:12px;">
+        <label for="nuevo-isbn" style="width:100px; margin-right:10px;">ISBN:</label>
+        <input type="text" id="nuevo-isbn" name="isbn" style="flex:1;">
+      </div>
+
+      <div style="display:flex; align-items:center; margin-bottom:20px;">
+        <label for="nuevo-stock" style="width:100px; margin-right:10px;">Stock:</label>
+        <input type="number" id="nuevo-stock" name="stock" required style="flex:1;">
+      </div>
+
+      <button type="submit">Agregar</button>
+      <button type="button" onclick="cerrarModalAgregar()" style="margin-left:10px;">Cancelar</button>
+    </form>
+  </div>
+</div>
+
+
+
+
+        <script src="script.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+</body>
+</html>

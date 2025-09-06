@@ -1,0 +1,481 @@
+[{
+  "_id": {
+    "$oid": "6828aaa737e0b1661bef8ef0"
+  },
+  "titulo": "Cándida Eréndira y de Su Abuela Desalmada",
+  "autor": "García Márquez, Gabriel",
+  "categoria": "Ficción Literaria",
+  "editorial": "DEBOLSILLO",
+  "anio_publicacion": 1972,
+  "isbn": "9788497592369",
+  "stock": 35,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6828ae9437e0b1661bef8f04"
+  },
+  "titulo": "Travesuras de la niña mala",
+  "autor": "Vargas Llosa, Mario",
+  "categoria": "Ficción Literaria",
+  "editorial": "ALFAGUARA",
+  "anio_publicacion": 2006,
+  "isbn": "9788420438016",
+  "stock": 20,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6828b93e37e0b1661bef8f0d"
+  },
+  "titulo": "Crónica de una Muerte Anunciada",
+  "autor": "García Márquez, Gabriel",
+  "categoria": "Policial",
+  "editorial": "DEBOLSILLO",
+  "anio_publicacion": 1981,
+  "isbn": "9786124262753",
+  "stock": 60,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6828cc5a37e0b1661bef8f4d"
+  },
+  "titulo": "La Ciudad y Los Perros",
+  "autor": "Vargas Llosa, Mario",
+  "categoria": "Ficción",
+  "editorial": "ALFAGUARA",
+  "anio_publicacion": 1963,
+  "isbn": "9788420454054",
+  "stock": 70,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6828cef637e0b1661bef8f56"
+  },
+  "titulo": "La Guerra del Fin del Mundo",
+  "autor": "Vargas Llosa, Mario",
+  "categoria": "Ficción histórica",
+  "editorial": "ALFAGUARA",
+  "anio_publicacion": 1981,
+  "isbn": "9786125020994",
+  "stock": 15,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6828d03737e0b1661bef8f67"
+  },
+  "titulo": "La Mala Hora",
+  "autor": "García Márquez, Gabriel",
+  "categoria": "Ficción Literaria",
+  "editorial": "LITERATURA RANDOM HOUSE",
+  "anio_publicacion": 1962,
+  "isbn": "9788439729242",
+  "stock": 30,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6828d0b537e0b1661bef8f6a"
+  },
+  "titulo": "Rubí",
+  "autor": "Gier, Kerstin",
+  "categoria": "Ciencia Ficción",
+  "editorial": "ALFAGUARA",
+  "anio_publicacion": 2009,
+  "isbn": "EA9788484417378",
+  "stock": 24,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6828d18437e0b1661bef8f71"
+  },
+  "titulo": "Me dicen Sara Tomate",
+  "autor": "Ure, Jean",
+  "categoria": "Diario Ficcional",
+  "editorial": "RESERVOIR BOOKS",
+  "anio_publicacion": 2000,
+  "isbn": "9786120215555",
+  "stock": 42,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6828d1e537e0b1661bef8f74"
+  },
+  "titulo": "El Libro Troll",
+  "autor": "elChimbo",
+  "categoria": "Humor",
+  "editorial": "Grupo Planeta",
+  "anio_publicacion": 2014,
+  "isbn": "EA9788499984209",
+  "stock": 55,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6828d24c37e0b1661bef8f77"
+  },
+  "titulo": "Don Quijote de la Mancha",
+  "autor": "De Cervantes Saavedra, Miguel",
+  "categoria": "Novela",
+  "editorial": "INCABOOKS",
+  "anio_publicacion": 1605,
+  "isbn": "9788466243711",
+  "stock": 38,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6828d2a237e0b1661bef8f7a"
+  },
+  "titulo": "El Gato Negro",
+  "autor": "Poe, Edgar Allan",
+  "categoria": "Terror",
+  "editorial": "LIBROS DEL ZORRO ROJO",
+  "anio_publicacion": 1843,
+  "isbn": "9788412229325",
+  "stock": 41,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6828d33737e0b1661bef8f7d"
+  },
+  "titulo": "La Fuerza de Sheccid",
+  "autor": "Sánchez, Carlos Cuauhtémoc",
+  "categoria": "Novela",
+  "editorial": "EDICIONES DIAMANTE",
+  "anio_publicacion": 1996,
+  "isbn": "EA9786077627401",
+  "stock": 14,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6828d38f37e0b1661bef8f80"
+  },
+  "titulo": "El Señor de los Anillos",
+  "autor": "Tolkien, J. R. R.",
+  "categoria": "Literatura Fantástica",
+  "editorial": "MINOTAURO",
+  "anio_publicacion": 1954,
+  "isbn": "9788445011119",
+  "stock": 34,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6828d40a37e0b1661bef8f83"
+  },
+  "titulo": "Harry Potter y La Piedra Filosofal",
+  "autor": "Rowling, J. K.",
+  "categoria": "Novela",
+  "editorial": "SALAMANDRA",
+  "anio_publicacion": 1997,
+  "isbn": "9788418174070",
+  "stock": 27,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6828d51037e0b1661bef8f86"
+  },
+  "titulo": "La Historia de los Tres Cerditos",
+  "autor": "Jacobs, Joseph",
+  "categoria": "Fábula",
+  "editorial": "ANAYA",
+  "anio_publicacion": 1890,
+  "isbn": "9788467871470",
+  "stock": 63,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68294f3c3ab713588d8d34aa"
+  },
+  "titulo": "A Través del Mar",
+  "autor": "Minkman, Jen",
+  "categoria": "Novela",
+  "editorial": "Grupo Planeta",
+  "anio_publicacion": 2020,
+  "isbn": "9781071576236",
+  "stock": 25,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6828be8137e0b1661bef8f10"
+  },
+  "titulo": "Paco Yunque",
+  "autor": "Vallejo, César",
+  "categoria": "Ficción",
+  "editorial": "RESERVOIR BOOKS",
+  "anio_publicacion": 1951,
+  "isbn": "9786124267291",
+  "stock": 70,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "e37e8a5c01d947bda8be1a0a"
+  },
+  "titulo": "El zorro de arriba y el zorro de abajo",
+  "autor": "Arguedas, José María",
+  "categoria": "Ficción",
+  "editorial": "Losada",
+  "anio_publicacion": 1971,
+  "isbn": "9789500394152",
+  "stock": 25,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "a61b24e9c7f948e49a9dd97e"
+  },
+  "titulo": "No me esperen en abril",
+  "autor": "Bryce Echenique, Alfredo",
+  "categoria": "Novela",
+  "editorial": "Seix Barral",
+  "anio_publicacion": 1995,
+  "isbn": "9788432215476",
+  "stock": 18,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "1c9ebcfb3a0d45dabb2d9fb1"
+  },
+  "titulo": "Delirio",
+  "autor": "Restrepo, Laura",
+  "categoria": "Ficción Psicológica",
+  "editorial": "ALFAGUARA",
+  "anio_publicacion": 2004,
+  "isbn": "9789587041848",
+  "stock": 32,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "49eaf7ab0e464f2790f4d1d9"
+  },
+  "titulo": "Los ejércitos",
+  "autor": "Rosero, Evelio",
+  "categoria": "Ficción",
+  "editorial": "Tusquets",
+  "anio_publicacion": 2007,
+  "isbn": "9789587580422",
+  "stock": 20,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "d72cafd78f0b4adbb4a188af"
+  },
+  "titulo": "Un día perfecto para el pez plátano",
+  "autor": "Salinger, J. D.",
+  "categoria": "Cuento",
+  "editorial": "Little, Brown",
+  "anio_publicacion": 1948,
+  "isbn": "9780316769488",
+  "stock": 40,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "f2f675bdf6df4d7786885f91"
+  },
+  "titulo": "El corazón delator",
+  "autor": "Poe, Edgar Allan",
+  "categoria": "Terror",
+  "editorial": "HarperCollins",
+  "anio_publicacion": 1843,
+  "isbn": "9788491048619",
+  "stock": 50,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "1e1ffab0dd3742908ff9be8d"
+  },
+  "titulo": "La lotería",
+  "autor": "Jackson, Shirley",
+  "categoria": "Suspenso",
+  "editorial": "The New Yorker",
+  "anio_publicacion": 1948,
+  "isbn": "9780143122357",
+  "stock": 45,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "ae914dd9dcad4e7ba4b007b6"
+  },
+  "titulo": "1984",
+  "autor": "Orwell, George",
+  "categoria": "Distopía",
+  "editorial": "Secker & Warburg",
+  "anio_publicacion": 1949,
+  "isbn": "9788499890944",
+  "stock": 60,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "0198b93fb78d4b8c82f6ecfd"
+  },
+  "titulo": "Cien años de soledad",
+  "autor": "García Márquez, Gabriel",
+  "categoria": "Realismo mágico",
+  "editorial": "Sudamericana",
+  "anio_publicacion": 1967,
+  "isbn": "9780307474728",
+  "stock": 80,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "321bde1ff26b4260af9792d4"
+  },
+  "titulo": "Rayuela",
+  "autor": "Cortázar, Julio",
+  "categoria": "Ficción experimental",
+  "editorial": "Editorial Sudamericana",
+  "anio_publicacion": 1963,
+  "isbn": "9788437602752",
+  "stock": 35,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "739e64f70c2d431391bcf3f9"
+  },
+  "titulo": "Pedro Páramo",
+  "autor": "Rulfo, Juan",
+  "categoria": "Ficción",
+  "editorial": "Fondo de Cultura Económica",
+  "anio_publicacion": 1955,
+  "isbn": "9789681636344",
+  "stock": 40,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "ba08e65d82a84b3fbc9e5f69"
+  },
+  "titulo": "Fervor de Buenos Aires",
+  "autor": "Borges, Jorge Luis",
+  "categoria": "Poesía",
+  "editorial": "Sur",
+  "anio_publicacion": 1923,
+  "isbn": "9789875667706",
+  "stock": 22,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6828e0a137e0b1661bef8f90"
+  },
+  "titulo": "Los abismos",
+  "autor": "Quintana, Pilar",
+  "categoria": "Ficción Literaria",
+  "editorial": "ALFAGUARA",
+  "anio_publicacion": 2023,
+  "isbn": "9788420459059",
+  "stock": 25,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6828e1b237e0b1661bef8f93"
+  },
+  "titulo": "El largo camino de Castilla",
+  "autor": "González Viaña, Eduardo",
+  "categoria": "Ficción Histórica",
+  "editorial": "EDITORA PLANETA",
+  "anio_publicacion": 2020,
+  "isbn": "9786125020994",
+  "stock": 18,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6828e2c337e0b1661bef8f96"
+  },
+  "titulo": "Tres ataúdes blancos",
+  "autor": "Ungar, Antonio",
+  "categoria": "Ficción Contemporánea",
+  "editorial": "ALFAGUARA",
+  "anio_publicacion": 2010,
+  "isbn": "9788420427072",
+  "stock": 22,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6828e3d437e0b1661bef8f99"
+  },
+  "titulo": "Guerra en las penumbras",
+  "autor": "Alarcón, Daniel",
+  "categoria": "Cuentos",
+  "editorial": "ALFAGUARA",
+  "anio_publicacion": 2005,
+  "isbn": "9788420427072",
+  "stock": 30,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6828e4e537e0b1661bef8f9c"
+  },
+  "titulo": "La Muerte de dios y otras muertes",
+  "autor": "Santacruz, Reynaldo",
+  "categoria": "Cuentos",
+  "editorial": "GRUPO EDITORIAL ARTEIDEA",
+  "anio_publicacion": 1990,
+  "isbn": "9789972013032",
+  "stock": 15,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6828e5f637e0b1661bef8f9f"
+  },
+  "titulo": "American Chica: Dos mundos, una infancia",
+  "autor": "Arana, Marie",
+  "categoria": "Memorias",
+  "editorial": "SIMON & SCHUSTER",
+  "anio_publicacion": 2001,
+  "isbn": "9780743228659",
+  "stock": 20,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6828e6a737e0b1661bef8fa2"
+  },
+  "titulo": "Pájaros en la boca",
+  "autor": "Schweblin, Samanta",
+  "categoria": "Cuentos",
+  "editorial": "ANAGRAMA",
+  "anio_publicacion": 2009,
+  "isbn": "9788433977746",
+  "stock": 28,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6828e7b837e0b1661bef8fa5"
+  },
+  "titulo": "La tía Julia y el escribidor",
+  "autor": "Vargas Llosa, Mario",
+  "categoria": "Ficción Literaria",
+  "editorial": "ALFAGUARA",
+  "anio_publicacion": 1977,
+  "isbn": "9788420459059",
+  "stock": 35,
+  "__v": 0
+}]
