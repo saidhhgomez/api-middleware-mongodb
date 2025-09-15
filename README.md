@@ -2,8 +2,7 @@
 This is a university project for the Distributed Systems course.
 
 ### Prerequisites
-Some libraries to need for start this project
- Lists : 
+Some libraries to need for start this project:
  - **Node.js** : The software for initializing JS files on a server.
  - **node_modules** : Installed in Server Package
  - **MongoDB** : NO SQL Database for data storage.
