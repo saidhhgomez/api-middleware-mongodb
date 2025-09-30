@@ -5,6 +5,7 @@ This is a university project for the Distributed Systems course.
 Some libraries to need for start this project:
  - **Node.js** : The software for initializing JS files on a server.
  - **node_modules** : Installed in Server Package
+ - **Visual Studio Code** : IDE for compiling
  - **MongoDB** : NO SQL Database for data storage.
 
 
